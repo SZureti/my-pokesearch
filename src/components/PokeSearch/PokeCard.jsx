@@ -25,7 +25,7 @@ function PokeCard({ pokemon, rmData }) {
             variant={shiny ? "secondary" : "warning"}
             onClick={() => setShiny((shiny) => !shiny)}
           >
-            {shiny ? "Make Normal" : "Shine"}
+            {shiny ? "Make Normal" : " Make Shiny"}
           </BsButton>
           <BsButton variant="danger" onClick={() => rmData(pokemon.id)}>
             Remove
